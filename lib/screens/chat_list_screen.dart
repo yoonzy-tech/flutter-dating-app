@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dating_app/chat_screen.dart';
+import 'package:flutter_dating_app/screens/chat_screen.dart';
 import 'package:flutter_dating_app/data.dart';
 
 class ChatListScreen extends StatelessWidget {
