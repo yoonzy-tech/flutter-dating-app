@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dating_app/screens/card_swipe_screen.dart';
 import 'package:flutter_dating_app/screens/chat_list_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -12,7 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 1;
 
   static final List<Widget> _pages = <Widget>[
-    Center(child: Text('Matching')), // Placeholder for Matching page
+    CardSwipeScreen(), // Placeholder for Matching page
     ChatListScreen(),
     Center(child: Text('Profile')), // Placeholder for Profile page
   ];
